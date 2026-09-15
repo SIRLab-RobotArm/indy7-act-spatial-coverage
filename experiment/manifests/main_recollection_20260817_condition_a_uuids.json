@@ -1,0 +1,868 @@
+{
+  "condition": "A",
+  "counts_by_position": {
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "p4": 0,
+    "p5": 60,
+    "p6": 0,
+    "p7": 0,
+    "p8": 0,
+    "p9": 0
+  },
+  "derived_episode_count": 240,
+  "episode_uuids": [
+    "f3c238d3-2e22-4256-9704-b32c4b9b94f5",
+    "fcb058c0-d1f5-4aa8-a648-f215ed5dc848",
+    "f6b28e7c-8aa5-470a-af53-5b60831d58dd",
+    "73ec0056-4111-468e-93e8-92cd70c8fc82",
+    "003b1713-753b-4ba3-967d-ef9e4b047f14",
+    "b4810a81-0746-475d-ba54-2e03742a95c6",
+    "5adb8f47-7b71-4216-a061-af73f5d8e48f",
+    "2c4ab7c0-8f49-4a23-a3cd-360e2b37da7a",
+    "e5f59857-8cbe-42e8-994f-e1aded5792fd",
+    "0b193082-1640-4807-8449-c27aace11501",
+    "c286e828-926c-4231-9acf-f3270848a3fc",
+    "7f482fd0-a599-498d-a209-b5a2b867e9d0",
+    "bb69d83e-a850-460c-b024-ba78535d45b9",
+    "188b9dbb-b233-440d-9175-399fb40789dd",
+    "dd6b96a9-685f-4f0d-a16f-64e25269d39b",
+    "059e9570-a889-4924-9678-d8c0a1318fdd",
+    "d3698ef4-6746-4220-8b69-9e9e0c3a58ca",
+    "1eb08e35-8ac7-422d-abc6-435061584343",
+    "2a0b9fc5-3be2-41d4-af29-b408155d28a2",
+    "a892e954-0133-48da-be9c-7e253359dec9",
+    "957a65cc-8556-43c4-8bff-5737e05afd3c",
+    "0b0dc1f0-a4da-4688-bb50-8f4bae848390",
+    "0046431f-824e-47db-94db-f7b785c7fa54",
+    "24918cd2-dfd8-42b9-bf09-226adfe8642f",
+    "07e02b1e-085c-4120-b2cb-4e4ac3922dc5",
+    "99413725-6423-4029-a3d4-4b105985ca1a",
+    "4a545d45-2388-455b-a830-bbd0e2db3d68",
+    "02089fd9-bf54-4894-9236-bc448ae91561",
+    "6d95d3bb-5cd2-41a4-9440-0fe24f3e37e7",
+    "03f74224-3cbf-49bc-8b22-a3dd6cf14b0f",
+    "f1786f73-0f0f-4dd1-9d18-063cb64fef01",
+    "822500f9-c991-4de1-a96a-4955dee0e63e",
+    "67f8c0fa-b724-4eb4-9054-586bd6e1ccfd",
+    "cde6cd3d-0724-4626-a9b0-6f7348faa730",
+    "426a2e98-b51b-48fd-b654-2ea49a9e5077",
+    "7ab5f768-a036-4b97-ac93-78e512a35d3f",
+    "02b6877e-148f-44d3-8ca4-28293f52d024",
+    "17371910-06c1-4fa0-9f5f-0c338e0ea8c7",
+    "b28f1bab-61fe-406c-9f54-7992e88debce",
+    "60967ea7-44c7-4530-b7bb-e03c4956503a",
+    "e89afd07-6cef-4029-9783-236c4fdef0f1",
+    "af882d99-7108-4c53-98c1-cd180d8adf72",
+    "11376342-6472-4d7f-87f9-09e8f89b4a4f",
+    "e96a4ca9-2b0e-4807-b4c7-e767a3a7d3aa",
+    "66874da5-802c-436f-8798-e0d433858fb2",
+    "ccfc140a-12c4-48ea-a337-442ee07ebc1c",
+    "a6b09a36-5530-4809-8964-26295c3090c9",
+    "c62e4f36-fb03-4a40-b5c8-4580b75d71ff",
+    "e3fe3008-15e0-43cc-b8f8-74e93199e46f",
+    "8ad79d0f-6da5-4039-8513-94d153015f22",
+    "072afca4-de32-4643-b40a-e8b32b26a78a",
+    "b16b73ee-fe96-4a1b-9149-43811af59307",
+    "40132382-c584-4e7d-b300-4c743978b555",
+    "3af33c9f-db75-4c65-a160-a591fa0a9ccf",
+    "dbb27009-6aa9-4dd1-a295-5a74f17679c5",
+    "39654630-7e0d-4d98-85e4-5610810132a1",
+    "4a4c58ac-f684-4643-9c52-e24629b6cf31",
+    "1d6bb353-2dd4-4ebc-9d3c-9db46b8a0750",
+    "f34acf5a-e3d8-4466-b3a2-ca5c3810c492",
+    "cf5ffba6-4061-4680-8954-a6656cd89832"
+  ],
+  "episodes": [
+    {
+      "derived_episode_indices": [
+        548,
+        549,
+        550,
+        551
+      ],
+      "episode_uuid": "f3c238d3-2e22-4256-9704-b32c4b9b94f5",
+      "position": "p5",
+      "selection_rank_sha256": "00b860ba5acacde4dfd9459d2b5b55080b226a4c88a8d7e4ea2bf0a08e94cd67",
+      "source_episode_index": 137,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_f3c238d3-2e22-4256-9704-b32c4b9b94f5.h5"
+    },
+    {
+      "derived_episode_indices": [
+        556,
+        557,
+        558,
+        559
+      ],
+      "episode_uuid": "fcb058c0-d1f5-4aa8-a648-f215ed5dc848",
+      "position": "p5",
+      "selection_rank_sha256": "014bd6d5db651da63364230fcd74282eff567e13481174ecaa137491fc39a4b0",
+      "source_episode_index": 139,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_fcb058c0-d1f5-4aa8-a648-f215ed5dc848.h5"
+    },
+    {
+      "derived_episode_indices": [
+        552,
+        553,
+        554,
+        555
+      ],
+      "episode_uuid": "f6b28e7c-8aa5-470a-af53-5b60831d58dd",
+      "position": "p5",
+      "selection_rank_sha256": "02f9860ba350501fed6691eaae57821cfe27c08e292dd9b2830bebfe965c7537",
+      "source_episode_index": 138,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_f6b28e7c-8aa5-470a-af53-5b60831d58dd.h5"
+    },
+    {
+      "derived_episode_indices": [
+        436,
+        437,
+        438,
+        439
+      ],
+      "episode_uuid": "73ec0056-4111-468e-93e8-92cd70c8fc82",
+      "position": "p5",
+      "selection_rank_sha256": "035f97621efadac27e23517eac84780f0c510f9a390f15b7810a0ed2f39ca9ed",
+      "source_episode_index": 109,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_73ec0056-4111-468e-93e8-92cd70c8fc82.h5"
+    },
+    {
+      "derived_episode_indices": [
+        320,
+        321,
+        322,
+        323
+      ],
+      "episode_uuid": "003b1713-753b-4ba3-967d-ef9e4b047f14",
+      "position": "p5",
+      "selection_rank_sha256": "055ca00781d4a67f7a273619f1fc00e07b30aab0ff273fa403361902d64f1df4",
+      "source_episode_index": 80,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_003b1713-753b-4ba3-967d-ef9e4b047f14.h5"
+    },
+    {
+      "derived_episode_indices": [
+        484,
+        485,
+        486,
+        487
+      ],
+      "episode_uuid": "b4810a81-0746-475d-ba54-2e03742a95c6",
+      "position": "p5",
+      "selection_rank_sha256": "0779bfcc78b2eabfefecca7e566b2de28fe5faeca3fac6ae8b47e06982eb83b5",
+      "source_episode_index": 121,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_b4810a81-0746-475d-ba54-2e03742a95c6.h5"
+    },
+    {
+      "derived_episode_indices": [
+        416,
+        417,
+        418,
+        419
+      ],
+      "episode_uuid": "5adb8f47-7b71-4216-a061-af73f5d8e48f",
+      "position": "p5",
+      "selection_rank_sha256": "13705836b2886ffe6d633c71533cfe91ddbdde60e96dc2c95bd1a53f901a4154",
+      "source_episode_index": 104,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_5adb8f47-7b71-4216-a061-af73f5d8e48f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        388,
+        389,
+        390,
+        391
+      ],
+      "episode_uuid": "2c4ab7c0-8f49-4a23-a3cd-360e2b37da7a",
+      "position": "p5",
+      "selection_rank_sha256": "177b1888bb54180da198cb817a90b733a222aae21069ece8c4411b9cffb12673",
+      "source_episode_index": 97,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_2c4ab7c0-8f49-4a23-a3cd-360e2b37da7a.h5"
+    },
+    {
+      "derived_episode_indices": [
+        528,
+        529,
+        530,
+        531
+      ],
+      "episode_uuid": "e5f59857-8cbe-42e8-994f-e1aded5792fd",
+      "position": "p5",
+      "selection_rank_sha256": "1f1fa803514cca586d28058ed7f154f48a1d122e457a7ee209ab8a38becd203a",
+      "source_episode_index": 132,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_e5f59857-8cbe-42e8-994f-e1aded5792fd.h5"
+    },
+    {
+      "derived_episode_indices": [
+        356,
+        357,
+        358,
+        359
+      ],
+      "episode_uuid": "0b193082-1640-4807-8449-c27aace11501",
+      "position": "p5",
+      "selection_rank_sha256": "2b1d6ec486513e42a1abe143d38977c932f89d7d88f573af07da0729da7b913f",
+      "source_episode_index": 89,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_0b193082-1640-4807-8449-c27aace11501.h5"
+    },
+    {
+      "derived_episode_indices": [
+        492,
+        493,
+        494,
+        495
+      ],
+      "episode_uuid": "c286e828-926c-4231-9acf-f3270848a3fc",
+      "position": "p5",
+      "selection_rank_sha256": "2c93334c55f7f3762c584b5dcedcd0638424b1e6d1f8d9c8f943f232b0e0473b",
+      "source_episode_index": 123,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_c286e828-926c-4231-9acf-f3270848a3fc.h5"
+    },
+    {
+      "derived_episode_indices": [
+        444,
+        445,
+        446,
+        447
+      ],
+      "episode_uuid": "7f482fd0-a599-498d-a209-b5a2b867e9d0",
+      "position": "p5",
+      "selection_rank_sha256": "2eed5e7350f7466dbaec8850dccd59447eaa4cbf272e18430376cbce1df3c15f",
+      "source_episode_index": 111,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_7f482fd0-a599-498d-a209-b5a2b867e9d0.h5"
+    },
+    {
+      "derived_episode_indices": [
+        488,
+        489,
+        490,
+        491
+      ],
+      "episode_uuid": "bb69d83e-a850-460c-b024-ba78535d45b9",
+      "position": "p5",
+      "selection_rank_sha256": "37af760d7ce094db7ce313bf546b70ee8a27f69c320565c3283576a12ee8888f",
+      "source_episode_index": 122,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_bb69d83e-a850-460c-b024-ba78535d45b9.h5"
+    },
+    {
+      "derived_episode_indices": [
+        368,
+        369,
+        370,
+        371
+      ],
+      "episode_uuid": "188b9dbb-b233-440d-9175-399fb40789dd",
+      "position": "p5",
+      "selection_rank_sha256": "44de6cd3631615526b89a1eaa3ec0126a08e693702888769e8fc4df430177221",
+      "source_episode_index": 92,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_188b9dbb-b233-440d-9175-399fb40789dd.h5"
+    },
+    {
+      "derived_episode_indices": [
+        520,
+        521,
+        522,
+        523
+      ],
+      "episode_uuid": "dd6b96a9-685f-4f0d-a16f-64e25269d39b",
+      "position": "p5",
+      "selection_rank_sha256": "512401db95c367a60c21e06f33f837a7afb8b1eeb76a31943f00e6fa50f3c871",
+      "source_episode_index": 130,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_dd6b96a9-685f-4f0d-a16f-64e25269d39b.h5"
+    },
+    {
+      "derived_episode_indices": [
+        340,
+        341,
+        342,
+        343
+      ],
+      "episode_uuid": "059e9570-a889-4924-9678-d8c0a1318fdd",
+      "position": "p5",
+      "selection_rank_sha256": "5208b616608bfadb4e32b902d3b3f7d56f7fe6d9887e9a67c14bb69d35907c90",
+      "source_episode_index": 85,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_059e9570-a889-4924-9678-d8c0a1318fdd.h5"
+    },
+    {
+      "derived_episode_indices": [
+        512,
+        513,
+        514,
+        515
+      ],
+      "episode_uuid": "d3698ef4-6746-4220-8b69-9e9e0c3a58ca",
+      "position": "p5",
+      "selection_rank_sha256": "55bb0cd170ce9dde139ac62c5d1e183ba0c7dab815325de21a522a252e1953a9",
+      "source_episode_index": 128,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_d3698ef4-6746-4220-8b69-9e9e0c3a58ca.h5"
+    },
+    {
+      "derived_episode_indices": [
+        376,
+        377,
+        378,
+        379
+      ],
+      "episode_uuid": "1eb08e35-8ac7-422d-abc6-435061584343",
+      "position": "p5",
+      "selection_rank_sha256": "55e86133af62a9c9f2b17c5b1cb34748379b1a23fd6bf43894516dd7dcad5677",
+      "source_episode_index": 94,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_1eb08e35-8ac7-422d-abc6-435061584343.h5"
+    },
+    {
+      "derived_episode_indices": [
+        384,
+        385,
+        386,
+        387
+      ],
+      "episode_uuid": "2a0b9fc5-3be2-41d4-af29-b408155d28a2",
+      "position": "p5",
+      "selection_rank_sha256": "6428466672bb0bce879c30af1e5237a4b156202844d4195806a727c4429d80da",
+      "source_episode_index": 96,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_2a0b9fc5-3be2-41d4-af29-b408155d28a2.h5"
+    },
+    {
+      "derived_episode_indices": [
+        468,
+        469,
+        470,
+        471
+      ],
+      "episode_uuid": "a892e954-0133-48da-be9c-7e253359dec9",
+      "position": "p5",
+      "selection_rank_sha256": "708f715b822e1d1dbe9960aa920c65742b2b2f5fb00263080b4791f400193339",
+      "source_episode_index": 117,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_a892e954-0133-48da-be9c-7e253359dec9.h5"
+    },
+    {
+      "derived_episode_indices": [
+        456,
+        457,
+        458,
+        459
+      ],
+      "episode_uuid": "957a65cc-8556-43c4-8bff-5737e05afd3c",
+      "position": "p5",
+      "selection_rank_sha256": "72ecf455ae6da81bb39422a6bfd5b8e2f1114509ef054559106aca04db7fc2de",
+      "source_episode_index": 114,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_957a65cc-8556-43c4-8bff-5737e05afd3c.h5"
+    },
+    {
+      "derived_episode_indices": [
+        352,
+        353,
+        354,
+        355
+      ],
+      "episode_uuid": "0b0dc1f0-a4da-4688-bb50-8f4bae848390",
+      "position": "p5",
+      "selection_rank_sha256": "73b7818c8c639859bd6f91499c27c90c058db35daea7002fafe8d2d847d04477",
+      "source_episode_index": 88,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_0b0dc1f0-a4da-4688-bb50-8f4bae848390.h5"
+    },
+    {
+      "derived_episode_indices": [
+        324,
+        325,
+        326,
+        327
+      ],
+      "episode_uuid": "0046431f-824e-47db-94db-f7b785c7fa54",
+      "position": "p5",
+      "selection_rank_sha256": "7642371fac3d86f3099a8bdfb138af3ad25bcf6c6621aeddc36b7e84b5053bc5",
+      "source_episode_index": 81,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_0046431f-824e-47db-94db-f7b785c7fa54.h5"
+    },
+    {
+      "derived_episode_indices": [
+        380,
+        381,
+        382,
+        383
+      ],
+      "episode_uuid": "24918cd2-dfd8-42b9-bf09-226adfe8642f",
+      "position": "p5",
+      "selection_rank_sha256": "771c776d5a48ace295c57141be775d3a5ae46395119787ac2c1d23740dba8b6f",
+      "source_episode_index": 95,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_24918cd2-dfd8-42b9-bf09-226adfe8642f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        348,
+        349,
+        350,
+        351
+      ],
+      "episode_uuid": "07e02b1e-085c-4120-b2cb-4e4ac3922dc5",
+      "position": "p5",
+      "selection_rank_sha256": "797ade1c8916109dbf6e9710943f08454e47565d0710e9f2e7e0b807ca889c37",
+      "source_episode_index": 87,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_07e02b1e-085c-4120-b2cb-4e4ac3922dc5.h5"
+    },
+    {
+      "derived_episode_indices": [
+        460,
+        461,
+        462,
+        463
+      ],
+      "episode_uuid": "99413725-6423-4029-a3d4-4b105985ca1a",
+      "position": "p5",
+      "selection_rank_sha256": "7bd2677b6585fe25b43990f40dc60e141a638851388b579b9c3461a9cecaac27",
+      "source_episode_index": 115,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_99413725-6423-4029-a3d4-4b105985ca1a.h5"
+    },
+    {
+      "derived_episode_indices": [
+        412,
+        413,
+        414,
+        415
+      ],
+      "episode_uuid": "4a545d45-2388-455b-a830-bbd0e2db3d68",
+      "position": "p5",
+      "selection_rank_sha256": "7f91364df1458c6531e51805388d7ca7c91e06a6f18bd6d00420fd26520f4aa5",
+      "source_episode_index": 103,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_4a545d45-2388-455b-a830-bbd0e2db3d68.h5"
+    },
+    {
+      "derived_episode_indices": [
+        328,
+        329,
+        330,
+        331
+      ],
+      "episode_uuid": "02089fd9-bf54-4894-9236-bc448ae91561",
+      "position": "p5",
+      "selection_rank_sha256": "834b2b244e324fe69bfcb0134829ef292a8b140964fd23dbc3c5db32addf0d0a",
+      "source_episode_index": 82,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_02089fd9-bf54-4894-9236-bc448ae91561.h5"
+    },
+    {
+      "derived_episode_indices": [
+        432,
+        433,
+        434,
+        435
+      ],
+      "episode_uuid": "6d95d3bb-5cd2-41a4-9440-0fe24f3e37e7",
+      "position": "p5",
+      "selection_rank_sha256": "85242a79f4470c8c8a9110f896ab86455fc8fe430f9e2c127d0d0dd4530218e3",
+      "source_episode_index": 108,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_6d95d3bb-5cd2-41a4-9440-0fe24f3e37e7.h5"
+    },
+    {
+      "derived_episode_indices": [
+        336,
+        337,
+        338,
+        339
+      ],
+      "episode_uuid": "03f74224-3cbf-49bc-8b22-a3dd6cf14b0f",
+      "position": "p5",
+      "selection_rank_sha256": "88407c59895968daadddfba97ff31607802bf68bd8516ef60c4d8d0254084bda",
+      "source_episode_index": 84,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_03f74224-3cbf-49bc-8b22-a3dd6cf14b0f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        540,
+        541,
+        542,
+        543
+      ],
+      "episode_uuid": "f1786f73-0f0f-4dd1-9d18-063cb64fef01",
+      "position": "p5",
+      "selection_rank_sha256": "8c9b7bddc2dc975be19f7600cccf8418d4fef8bb29661c07b37104e40267b539",
+      "source_episode_index": 135,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_f1786f73-0f0f-4dd1-9d18-063cb64fef01.h5"
+    },
+    {
+      "derived_episode_indices": [
+        448,
+        449,
+        450,
+        451
+      ],
+      "episode_uuid": "822500f9-c991-4de1-a96a-4955dee0e63e",
+      "position": "p5",
+      "selection_rank_sha256": "8cc2e9b30ea028c31905cafa1f3d0c8877f258ac59c21830e5bfa7bf6a08c1ab",
+      "source_episode_index": 112,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_822500f9-c991-4de1-a96a-4955dee0e63e.h5"
+    },
+    {
+      "derived_episode_indices": [
+        428,
+        429,
+        430,
+        431
+      ],
+      "episode_uuid": "67f8c0fa-b724-4eb4-9054-586bd6e1ccfd",
+      "position": "p5",
+      "selection_rank_sha256": "924c875630f135b4a8cf1d6a4b7b797e9839c172cd815d102b0a584aaf5dccb7",
+      "source_episode_index": 107,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_67f8c0fa-b724-4eb4-9054-586bd6e1ccfd.h5"
+    },
+    {
+      "derived_episode_indices": [
+        504,
+        505,
+        506,
+        507
+      ],
+      "episode_uuid": "cde6cd3d-0724-4626-a9b0-6f7348faa730",
+      "position": "p5",
+      "selection_rank_sha256": "95fd64d335f1154c0f74ea056e67a6c3829710069c3b1a2b6e346bfd7f322ddc",
+      "source_episode_index": 126,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_cde6cd3d-0724-4626-a9b0-6f7348faa730.h5"
+    },
+    {
+      "derived_episode_indices": [
+        404,
+        405,
+        406,
+        407
+      ],
+      "episode_uuid": "426a2e98-b51b-48fd-b654-2ea49a9e5077",
+      "position": "p5",
+      "selection_rank_sha256": "9b0bb222703b150c069c8f97ddb8c73835f1deaa8588cd0de815498f17301faf",
+      "source_episode_index": 101,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_426a2e98-b51b-48fd-b654-2ea49a9e5077.h5"
+    },
+    {
+      "derived_episode_indices": [
+        440,
+        441,
+        442,
+        443
+      ],
+      "episode_uuid": "7ab5f768-a036-4b97-ac93-78e512a35d3f",
+      "position": "p5",
+      "selection_rank_sha256": "9e85e8e340bf166c473d4aa76031de18908a42d32298c5aabc5c417b6eeec32c",
+      "source_episode_index": 110,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_7ab5f768-a036-4b97-ac93-78e512a35d3f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        332,
+        333,
+        334,
+        335
+      ],
+      "episode_uuid": "02b6877e-148f-44d3-8ca4-28293f52d024",
+      "position": "p5",
+      "selection_rank_sha256": "9f0671bf0b1e6ebcf11f93444bb8e6daafd14a0e9ba4cc3aa700da530e4b93ac",
+      "source_episode_index": 83,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_02b6877e-148f-44d3-8ca4-28293f52d024.h5"
+    },
+    {
+      "derived_episode_indices": [
+        364,
+        365,
+        366,
+        367
+      ],
+      "episode_uuid": "17371910-06c1-4fa0-9f5f-0c338e0ea8c7",
+      "position": "p5",
+      "selection_rank_sha256": "a0c405cd3d5c60eaf398d692b1362ef04b12b5e98875bcb3b932c1d2090c489d",
+      "source_episode_index": 91,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_17371910-06c1-4fa0-9f5f-0c338e0ea8c7.h5"
+    },
+    {
+      "derived_episode_indices": [
+        480,
+        481,
+        482,
+        483
+      ],
+      "episode_uuid": "b28f1bab-61fe-406c-9f54-7992e88debce",
+      "position": "p5",
+      "selection_rank_sha256": "a2cec6208d705e53d039786b739905ddf1e31f1f93ae7625c263a34dbc8f2b74",
+      "source_episode_index": 120,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_b28f1bab-61fe-406c-9f54-7992e88debce.h5"
+    },
+    {
+      "derived_episode_indices": [
+        420,
+        421,
+        422,
+        423
+      ],
+      "episode_uuid": "60967ea7-44c7-4530-b7bb-e03c4956503a",
+      "position": "p5",
+      "selection_rank_sha256": "ad756d98a37823d27b0d25ddd63c269d7292eff69cdb41a7d3d5c2c4a66df5cd",
+      "source_episode_index": 105,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_60967ea7-44c7-4530-b7bb-e03c4956503a.h5"
+    },
+    {
+      "derived_episode_indices": [
+        532,
+        533,
+        534,
+        535
+      ],
+      "episode_uuid": "e89afd07-6cef-4029-9783-236c4fdef0f1",
+      "position": "p5",
+      "selection_rank_sha256": "b18fc0b306646b649367033051057787ec8b754d88260fd7930e84552736b5eb",
+      "source_episode_index": 133,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_e89afd07-6cef-4029-9783-236c4fdef0f1.h5"
+    },
+    {
+      "derived_episode_indices": [
+        472,
+        473,
+        474,
+        475
+      ],
+      "episode_uuid": "af882d99-7108-4c53-98c1-cd180d8adf72",
+      "position": "p5",
+      "selection_rank_sha256": "b7cd8a011f27fd546a9d2507b5538086e8c7cdbdf476c97cb6e7a384bdbd56b6",
+      "source_episode_index": 118,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_af882d99-7108-4c53-98c1-cd180d8adf72.h5"
+    },
+    {
+      "derived_episode_indices": [
+        360,
+        361,
+        362,
+        363
+      ],
+      "episode_uuid": "11376342-6472-4d7f-87f9-09e8f89b4a4f",
+      "position": "p5",
+      "selection_rank_sha256": "bce26a5c79db48939acbc46a0b1f58d7ca9d154d5eb192ab972d297903ccb546",
+      "source_episode_index": 90,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_11376342-6472-4d7f-87f9-09e8f89b4a4f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        536,
+        537,
+        538,
+        539
+      ],
+      "episode_uuid": "e96a4ca9-2b0e-4807-b4c7-e767a3a7d3aa",
+      "position": "p5",
+      "selection_rank_sha256": "be6a2c4e5da059e4849df3bcb3f6ae48ce726f9da3c4b95287465154229802fc",
+      "source_episode_index": 134,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_e96a4ca9-2b0e-4807-b4c7-e767a3a7d3aa.h5"
+    },
+    {
+      "derived_episode_indices": [
+        424,
+        425,
+        426,
+        427
+      ],
+      "episode_uuid": "66874da5-802c-436f-8798-e0d433858fb2",
+      "position": "p5",
+      "selection_rank_sha256": "c108f790d49a8817497e0d0000be41c068dd0d291519fd73b20a603f078b96c8",
+      "source_episode_index": 106,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_66874da5-802c-436f-8798-e0d433858fb2.h5"
+    },
+    {
+      "derived_episode_indices": [
+        500,
+        501,
+        502,
+        503
+      ],
+      "episode_uuid": "ccfc140a-12c4-48ea-a337-442ee07ebc1c",
+      "position": "p5",
+      "selection_rank_sha256": "c9ada41c47ef9221ed07303ad1d06f86f26de5ee98a066b4717087e9b1610acb",
+      "source_episode_index": 125,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_ccfc140a-12c4-48ea-a337-442ee07ebc1c.h5"
+    },
+    {
+      "derived_episode_indices": [
+        464,
+        465,
+        466,
+        467
+      ],
+      "episode_uuid": "a6b09a36-5530-4809-8964-26295c3090c9",
+      "position": "p5",
+      "selection_rank_sha256": "cb4d7260f14455b413b32108b506e61948eadf813c615bd8b25728384ed66d20",
+      "source_episode_index": 116,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_a6b09a36-5530-4809-8964-26295c3090c9.h5"
+    },
+    {
+      "derived_episode_indices": [
+        496,
+        497,
+        498,
+        499
+      ],
+      "episode_uuid": "c62e4f36-fb03-4a40-b5c8-4580b75d71ff",
+      "position": "p5",
+      "selection_rank_sha256": "cbd32f8da5b0fe1574511523a0bedaeb8fabe962910810594d551ef90cdb35bc",
+      "source_episode_index": 124,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_c62e4f36-fb03-4a40-b5c8-4580b75d71ff.h5"
+    },
+    {
+      "derived_episode_indices": [
+        524,
+        525,
+        526,
+        527
+      ],
+      "episode_uuid": "e3fe3008-15e0-43cc-b8f8-74e93199e46f",
+      "position": "p5",
+      "selection_rank_sha256": "cdbcf436231e0b856c6d388303f23fcc9e6fb8f79dd14cdf74df6ce014d67452",
+      "source_episode_index": 131,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_e3fe3008-15e0-43cc-b8f8-74e93199e46f.h5"
+    },
+    {
+      "derived_episode_indices": [
+        452,
+        453,
+        454,
+        455
+      ],
+      "episode_uuid": "8ad79d0f-6da5-4039-8513-94d153015f22",
+      "position": "p5",
+      "selection_rank_sha256": "cf0fff3f5773bca76e8eedd21000fb48b30abc3066dc774017375115e0d4fac6",
+      "source_episode_index": 113,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_8ad79d0f-6da5-4039-8513-94d153015f22.h5"
+    },
+    {
+      "derived_episode_indices": [
+        344,
+        345,
+        346,
+        347
+      ],
+      "episode_uuid": "072afca4-de32-4643-b40a-e8b32b26a78a",
+      "position": "p5",
+      "selection_rank_sha256": "d380889652e676989c584b8ddb0ce860608818f1d25d4ff2cdc02fcfa01cd8ca",
+      "source_episode_index": 86,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_072afca4-de32-4643-b40a-e8b32b26a78a.h5"
+    },
+    {
+      "derived_episode_indices": [
+        476,
+        477,
+        478,
+        479
+      ],
+      "episode_uuid": "b16b73ee-fe96-4a1b-9149-43811af59307",
+      "position": "p5",
+      "selection_rank_sha256": "d788ecce7b45279637b9bb99068577e27a421b29c20dd1b9330c419d8734482b",
+      "source_episode_index": 119,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_b16b73ee-fe96-4a1b-9149-43811af59307.h5"
+    },
+    {
+      "derived_episode_indices": [
+        400,
+        401,
+        402,
+        403
+      ],
+      "episode_uuid": "40132382-c584-4e7d-b300-4c743978b555",
+      "position": "p5",
+      "selection_rank_sha256": "dd101c92f5cd466a6021ace78ce8b96a289af06aa2e397a0e0a1d1048f4d8b66",
+      "source_episode_index": 100,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_40132382-c584-4e7d-b300-4c743978b555.h5"
+    },
+    {
+      "derived_episode_indices": [
+        396,
+        397,
+        398,
+        399
+      ],
+      "episode_uuid": "3af33c9f-db75-4c65-a160-a591fa0a9ccf",
+      "position": "p5",
+      "selection_rank_sha256": "e102d7e57fe41b1eb90223b3ecd6a2256feda4719d1f1790976a6ec056049d7f",
+      "source_episode_index": 99,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_3af33c9f-db75-4c65-a160-a591fa0a9ccf.h5"
+    },
+    {
+      "derived_episode_indices": [
+        516,
+        517,
+        518,
+        519
+      ],
+      "episode_uuid": "dbb27009-6aa9-4dd1-a295-5a74f17679c5",
+      "position": "p5",
+      "selection_rank_sha256": "e636242303e9407b37ff4abdf6c4fc36517a9671a4481c6dbd12bc76486effe9",
+      "source_episode_index": 129,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_dbb27009-6aa9-4dd1-a295-5a74f17679c5.h5"
+    },
+    {
+      "derived_episode_indices": [
+        392,
+        393,
+        394,
+        395
+      ],
+      "episode_uuid": "39654630-7e0d-4d98-85e4-5610810132a1",
+      "position": "p5",
+      "selection_rank_sha256": "eb0d83e2c812cee93818f99a24f6aa05db54490a09d1bf09eb751277850f4cf5",
+      "source_episode_index": 98,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_39654630-7e0d-4d98-85e4-5610810132a1.h5"
+    },
+    {
+      "derived_episode_indices": [
+        408,
+        409,
+        410,
+        411
+      ],
+      "episode_uuid": "4a4c58ac-f684-4643-9c52-e24629b6cf31",
+      "position": "p5",
+      "selection_rank_sha256": "ed26a84c6e3be110cfb69b314d62f7709d8b03955ecc21563e1cf7d37b6257a0",
+      "source_episode_index": 102,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_4a4c58ac-f684-4643-9c52-e24629b6cf31.h5"
+    },
+    {
+      "derived_episode_indices": [
+        372,
+        373,
+        374,
+        375
+      ],
+      "episode_uuid": "1d6bb353-2dd4-4ebc-9d3c-9db46b8a0750",
+      "position": "p5",
+      "selection_rank_sha256": "eeeaafb153ad4dfa435cb60e70c5f1f4d1084b3f1e92d23092a5950475fe0b8a",
+      "source_episode_index": 93,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_1d6bb353-2dd4-4ebc-9d3c-9db46b8a0750.h5"
+    },
+    {
+      "derived_episode_indices": [
+        544,
+        545,
+        546,
+        547
+      ],
+      "episode_uuid": "f34acf5a-e3d8-4466-b3a2-ca5c3810c492",
+      "position": "p5",
+      "selection_rank_sha256": "f2b2096c615fdc23d787e6a50dae8bf2dd448cf9337064a82d7749cacb6cc2df",
+      "source_episode_index": 136,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_f34acf5a-e3d8-4466-b3a2-ca5c3810c492.h5"
+    },
+    {
+      "derived_episode_indices": [
+        508,
+        509,
+        510,
+        511
+      ],
+      "episode_uuid": "cf5ffba6-4061-4680-8954-a6656cd89832",
+      "position": "p5",
+      "selection_rank_sha256": "fd5d26c187f0a393183b9bdea5f5fcc539641a8ec90f2c906d405324615a157d",
+      "source_episode_index": 127,
+      "source_path": "/opt/workspace/sirlab-paper-indy7-grip/episodes/main_20260817/p5/episode_cf5ffba6-4061-4680-8954-a6656cd89832.h5"
+    }
+  ],
+  "membership_sha256": "468f1494647bf7821a67fd2a7ef3e851beaf68f8deb4324d93e707a7d9850170",
+  "nested_membership": null,
+  "raw_episode_count": 60,
+  "schema_version": 1,
+  "selection_algorithm": "sha256(seed:position:episode_uuid), ascending",
+  "selection_seed": "main_recollection_20260817_membership_v1",
+  "source_dataset_directory_sha256": "abca0fcdccabb40035f344cef9b7c907ffda24915ae1081ee1ed96fbd65d016b",
+  "source_manifest": "/opt/workspace/sirlab-paper-indy7-grip/experiment/manifests/main_recollection_20260817_rgb_all.json",
+  "source_manifest_sha256": "21107f6b3c04b5b9c848de8f6a54d4027e1e14ebc1428dab69c6e3202f5f2de3"
+}

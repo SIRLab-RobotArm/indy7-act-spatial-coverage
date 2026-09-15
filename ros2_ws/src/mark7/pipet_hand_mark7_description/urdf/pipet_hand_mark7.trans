@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="pipet_hand_mark7_20251226" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+  <transmission name="base_pinky_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="base_pinky">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="base_pinky_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="base_ringer_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="base_ringer">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="base_ringer_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="base_middle_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="base_middle">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="base_middle_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="base_index_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="base_index">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="base_index_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="base_thumb_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="base_thumb">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="base_thumb_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="thumb_bottom_middle_rev_tran">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="thumb_bottom_middle_rev">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="thumb_bottom_middle_rev_actr">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+</robot>

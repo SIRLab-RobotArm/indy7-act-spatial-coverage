@@ -1,0 +1,20 @@
+/mark7/controller_manager:
+  ros__parameters:
+    update_rate: 20
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    forward_position_controller:
+      type: forward_command_controller/ForwardCommandController
+
+/mark7/forward_position_controller:
+  ros__parameters:
+    joints:
+      - thumb_bottom_middle_rev
+      - base_index
+      - base_middle
+      - base_ringer
+      - base_pinky
+      - base_thumb
+    interface_name: position

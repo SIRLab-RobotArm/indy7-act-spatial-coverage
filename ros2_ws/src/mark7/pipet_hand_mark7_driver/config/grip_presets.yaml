@@ -1,0 +1,10 @@
+# Mark7 grip preset joint values
+# Order: [Thumb, Index, Middle, Ring, Pinky, ThumbAb]
+# Range: Thumb 0-187, the others 0-300 (the hardware allows up to 350)
+
+grip_preset_node:
+  ros__parameters:
+    grasp: [0.0, 350.0, 350.0, 350.0, 350.0, 0.0]
+    open:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    press: [150.0, 0.0, 350.0, 350.0, 350.0, 0.0]
+    release: [0.0, 0.0, 350.0, 350.0, 350.0, 0.0]

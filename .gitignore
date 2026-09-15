@@ -1,0 +1,74 @@
+# Private/local folders
+/prev/
+/archive/
+
+# Machine-specific settings (see config/local.env.example)
+/config/local.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ROS 2 build artifacts
+build/
+install/
+log/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Neuromeka Indy7 driver: cloned separately, never committed (see NOTICE.md)
+ros2_ws/src/indy7_ros2/
+
+# Raw and converted experiment data
+*.mp4
+*.npz
+/episodes/*
+!/episodes/README.md
+/datasets/*
+!/datasets/README.md
+/raw_data/
+/ai/datasets/
+
+# Training outputs and caches
+/ai/models/
+/ai/.cache/
+/ai/pipet_train_outputs/
+/ai/training_data/
+/ai/lerobot_source/lerobot/tests/artifacts/
+/experiment/training_logs/
+
+# Generated experiment artifacts
+/experiment/manifests/_dev*.json
+/experiment/qa/_dev*
+/experiment/qa/_bench*.json
+/experiment/rollouts/
+
+# Compact, publication-ready evaluation tables belong under
+# experiment/evaluation/<experiment-id>/results/ and are intentionally tracked.
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependencies and local configuration
+node_modules/
+.env
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

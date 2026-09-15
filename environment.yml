@@ -1,0 +1,20 @@
+# Conda environment for this repository.
+#
+#     conda env create -f environment.yml
+#     conda activate act
+#     pip install -r requirements.txt
+#     pip install -e ai/lerobot_source/lerobot
+#
+# scripts/setup/create_env.sh runs all four steps for you, including the
+# PyTorch build that matches your CUDA version.
+#
+# This environment covers analysis, dataset conversion, training and the policy
+# server. It does NOT cover ROS 2, which has to be installed separately and is
+# only needed to talk to the real robot.
+
+name: act
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip

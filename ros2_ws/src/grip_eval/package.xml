@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>grip_eval</name>
+  <version>0.1.0</version>
+  <description>Safe policy execution, teach-in, and rollout logging.</description>
+  <maintainer email="yuykim14@gmail.com">SIRLab</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>indy_interfaces</depend>
+  <exec_depend>python3-h5py</exec_depend>
+  <exec_depend>python3-message-filters</exec_depend>
+  <exec_depend>python3-zmq</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <test_depend>python3-pytest</test_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

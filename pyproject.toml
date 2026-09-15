@@ -1,0 +1,10 @@
+# This file is not a package definition. The project is run from the repository
+# root (`python -m ai.eval.analyze`, `python scripts/eval/...`), so the only
+# thing configured here is pytest.
+#
+# Without `testpaths`, a bare `pytest` walks into ai/lerobot_source/lerobot/tests
+# and fails on the vendored LeRobot test suite's own conftest.
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

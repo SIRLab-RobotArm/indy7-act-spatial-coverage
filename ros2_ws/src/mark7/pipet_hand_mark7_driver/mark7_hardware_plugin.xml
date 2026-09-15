@@ -1,0 +1,11 @@
+<library path="mark7_hardware">
+  <class
+    name="pipet_hand_mark7_driver/Mark7SystemHardware"
+    type="pipet_hand_mark7_driver::Mark7SystemHardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Mand.ro Mark7 robot hand hardware interface for ros2_control.
+      Communicates via /dev/ttyACM0 (115200bps, Tx 11-byte binary, Rx variable-length text CSV).
+    </description>
+  </class>
+</library>

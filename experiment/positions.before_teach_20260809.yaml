@@ -1,0 +1,25 @@
+schema_version: 1
+units: mm_deg
+frame: indy_base
+camera_mount:
+  overhead_tilt_deg: null
+positions:
+  grid_1: {ee_pose_mm_deg: null, taught: false}
+  grid_2: {ee_pose_mm_deg: null, taught: false}
+  grid_3: {ee_pose_mm_deg: null, taught: false}
+  grid_4: {ee_pose_mm_deg: null, taught: false}
+  grid_5: {ee_pose_mm_deg: null, taught: false}
+  grid_6: {ee_pose_mm_deg: null, taught: false}
+  grid_7: {ee_pose_mm_deg: null, taught: false}
+  grid_8: {ee_pose_mm_deg: null, taught: false}
+  grid_9: {ee_pose_mm_deg: null, taught: false}
+  eval_1: {ee_pose_mm_deg: null, taught: false}
+  eval_2: {ee_pose_mm_deg: null, taught: false}
+  eval_3: {ee_pose_mm_deg: null, taught: false}
+  eval_4: {ee_pose_mm_deg: null, taught: false}
+  eval_5: {ee_pose_mm_deg: null, taught: false}
+  eval_6: {ee_pose_mm_deg: null, taught: false}
+  eval_7: {ee_pose_mm_deg: null, taught: false}
+  eval_8: {ee_pose_mm_deg: null, taught: false}
+  pilot_1: {ee_pose_mm_deg: null, taught: false}
+  pilot_2: {ee_pose_mm_deg: null, taught: false}

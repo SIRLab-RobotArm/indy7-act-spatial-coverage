@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-01T04:46:34.456668+00:00",
+  "provisional": false,
+  "schedule": "experiment/evaluation/main_recollection_20260817/schedule_full.csv",
+  "schedule_sha256": "f6e26ce805d0f4dc0d308fb99f1a179978ee544796603dd35e12575abd0a193b",
+  "scheduled_trials": 480,
+  "completed_trials": 480,
+  "remaining_trials": 0,
+  "next_trial": null,
+  "attempts": {
+    "eligible": 480,
+    "excluded": 1,
+    "incomplete_or_invalid": 29
+  },
+  "outcome_corrections": 5,
+  "success": {
+    "by_condition": [
+      {
+        "condition": "A",
+        "successes": 15,
+        "total": 120,
+        "success_rate": 0.125,
+        "wilson_95_low": 0.07723497273395374,
+        "wilson_95_high": 0.1960294020800739
+      },
+      {
+        "condition": "B",
+        "successes": 74,
+        "total": 120,
+        "success_rate": 0.6166666666666667,
+        "wilson_95_low": 0.5273408053842049,
+        "wilson_95_high": 0.6987547224514311
+      },
+      {
+        "condition": "C",
+        "successes": 96,
+        "total": 120,
+        "success_rate": 0.8,
+        "wilson_95_low": 0.7196332649371805,
+        "wilson_95_high": 0.8617552352115975
+      },
+      {
+        "condition": "D",
+        "successes": 116,
+        "total": 120,
+        "success_rate": 0.9666666666666667,
+        "wilson_95_low": 0.917419662440894,
+        "wilson_95_high": 0.9869624489016494
+      }
+    ],
+    "by_condition_and_group": [
+      {
+        "condition": "A",
+        "evaluation_group": "exact_grid",
+        "successes": 15,
+        "total": 60,
+        "success_rate": 0.25,
+        "wilson_95_low": 0.15776522530056675,
+        "wilson_95_high": 0.37232070077047824
+      },
+      {
+        "condition": "A",
+        "evaluation_group": "q_unseen",
+        "successes": 0,
+        "total": 60,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.06017185214208986
+      },
+      {
+        "condition": "B",
+        "evaluation_group": "exact_grid",
+        "successes": 47,
+        "total": 60,
+        "success_rate": 0.7833333333333333,
+        "wilson_95_low": 0.6637997242680521,
+        "wilson_95_high": 0.868769559518097
+      },
+      {
+        "condition": "B",
+        "evaluation_group": "q_unseen",
+        "successes": 27,
+        "total": 60,
+        "success_rate": 0.45,
+        "wilson_95_low": 0.3309365440675524,
+        "wilson_95_high": 0.5750806411466566
+      },
+      {
+        "condition": "C",
+        "evaluation_group": "exact_grid",
+        "successes": 52,
+        "total": 60,
+        "success_rate": 0.8666666666666667,
+        "wilson_95_low": 0.7583484032350039,
+        "wilson_95_high": 0.9308589051941303
+      },
+      {
+        "condition": "C",
+        "evaluation_group": "q_unseen",
+        "successes": 44,
+        "total": 60,
+        "success_rate": 0.7333333333333333,
+        "wilson_95_low": 0.6099128690331636,
+        "wilson_95_high": 0.8286735999671945
+      },
+      {
+        "condition": "D",
+        "evaluation_group": "exact_grid",
+        "successes": 58,
+        "total": 60,
+        "success_rate": 0.9666666666666667,
+        "wilson_95_low": 0.886362257256914,
+        "wilson_95_high": 0.9908106807438021
+      },
+      {
+        "condition": "D",
+        "evaluation_group": "q_unseen",
+        "successes": 58,
+        "total": 60,
+        "success_rate": 0.9666666666666667,
+        "wilson_95_low": 0.886362257256914,
+        "wilson_95_high": 0.9908106807438021
+      }
+    ],
+    "by_model": [
+      {
+        "condition": "A",
+        "seed": 0,
+        "model_code": "M05",
+        "successes": 5,
+        "total": 40,
+        "success_rate": 0.125,
+        "wilson_95_low": 0.05459500250945401,
+        "wilson_95_high": 0.261121198388511
+      },
+      {
+        "condition": "A",
+        "seed": 1,
+        "model_code": "M03",
+        "successes": 5,
+        "total": 40,
+        "success_rate": 0.125,
+        "wilson_95_low": 0.05459500250945401,
+        "wilson_95_high": 0.261121198388511
+      },
+      {
+        "condition": "A",
+        "seed": 2,
+        "model_code": "M11",
+        "successes": 5,
+        "total": 40,
+        "success_rate": 0.125,
+        "wilson_95_low": 0.05459500250945401,
+        "wilson_95_high": 0.261121198388511
+      },
+      {
+        "condition": "B",
+        "seed": 0,
+        "model_code": "M12",
+        "successes": 24,
+        "total": 40,
+        "success_rate": 0.6,
+        "wilson_95_low": 0.44595893660346186,
+        "wilson_95_high": 0.7365167431570808
+      },
+      {
+        "condition": "B",
+        "seed": 1,
+        "model_code": "M10",
+        "successes": 28,
+        "total": 40,
+        "success_rate": 0.7,
+        "wilson_95_low": 0.5456998118185507,
+        "wilson_95_high": 0.8192515477025347
+      },
+      {
+        "condition": "B",
+        "seed": 2,
+        "model_code": "M09",
+        "successes": 22,
+        "total": 40,
+        "success_rate": 0.55,
+        "wilson_95_low": 0.39829091798932054,
+        "wilson_95_high": 0.6929469218909508
+      },
+      {
+        "condition": "C",
+        "seed": 0,
+        "model_code": "M04",
+        "successes": 30,
+        "total": 40,
+        "success_rate": 0.75,
+        "wilson_95_low": 0.5980603857923197,
+        "wilson_95_high": 0.858128813609037
+      },
+      {
+        "condition": "C",
+        "seed": 1,
+        "model_code": "M02",
+        "successes": 35,
+        "total": 40,
+        "success_rate": 0.875,
+        "wilson_95_low": 0.738878801611489,
+        "wilson_95_high": 0.945404997490546
+      },
+      {
+        "condition": "C",
+        "seed": 2,
+        "model_code": "M07",
+        "successes": 31,
+        "total": 40,
+        "success_rate": 0.775,
+        "wilson_95_low": 0.6249690325768998,
+        "wilson_95_high": 0.8768390867645927
+      },
+      {
+        "condition": "D",
+        "seed": 0,
+        "model_code": "M01",
+        "successes": 39,
+        "total": 40,
+        "success_rate": 0.975,
+        "wilson_95_low": 0.8711863103652591,
+        "wilson_95_high": 0.9955731684973186
+      },
+      {
+        "condition": "D",
+        "seed": 1,
+        "model_code": "M06",
+        "successes": 40,
+        "total": 40,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.9123783988027135,
+        "wilson_95_high": 1.0000000000000002
+      },
+      {
+        "condition": "D",
+        "seed": 2,
+        "model_code": "M08",
+        "successes": 37,
+        "total": 40,
+        "success_rate": 0.925,
+        "wilson_95_low": 0.8013576647568946,
+        "wilson_95_high": 0.9741639742254119
+      }
+    ],
+    "by_position": [
+      {
+        "condition": "A",
+        "position_id": "eval_1",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_2",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_3",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_4",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_5",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_6",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_7",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "A",
+        "position_id": "eval_8",
+        "successes": 0,
+        "total": 15,
+        "success_rate": 0.0,
+        "wilson_95_low": 0.0,
+        "wilson_95_high": 0.20388330103584862
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_1",
+        "successes": 4,
+        "total": 15,
+        "success_rate": 0.26666666666666666,
+        "wilson_95_low": 0.10897453325692374,
+        "wilson_95_high": 0.5195043405598057
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_2",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_3",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_4",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_5",
+        "successes": 3,
+        "total": 15,
+        "success_rate": 0.2,
+        "wilson_95_low": 0.07047549346981563,
+        "wilson_95_high": 0.45185448715169363
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_6",
+        "successes": 11,
+        "total": 15,
+        "success_rate": 0.7333333333333333,
+        "wilson_95_low": 0.4804956594401943,
+        "wilson_95_high": 0.8910254667430761
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_7",
+        "successes": 2,
+        "total": 15,
+        "success_rate": 0.13333333333333333,
+        "wilson_95_low": 0.03736125910306537,
+        "wilson_95_high": 0.37881982832322364
+      },
+      {
+        "condition": "B",
+        "position_id": "eval_8",
+        "successes": 11,
+        "total": 15,
+        "success_rate": 0.7333333333333333,
+        "wilson_95_low": 0.4804956594401943,
+        "wilson_95_high": 0.8910254667430761
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_1",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_2",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_3",
+        "successes": 13,
+        "total": 15,
+        "success_rate": 0.8666666666666667,
+        "wilson_95_low": 0.6211801716767764,
+        "wilson_95_high": 0.9626387408969346
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_4",
+        "successes": 10,
+        "total": 15,
+        "success_rate": 0.6666666666666666,
+        "wilson_95_low": 0.41713547738519774,
+        "wilson_95_high": 0.8482367556028526
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_5",
+        "successes": 11,
+        "total": 15,
+        "success_rate": 0.7333333333333333,
+        "wilson_95_low": 0.4804956594401943,
+        "wilson_95_high": 0.8910254667430761
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_6",
+        "successes": 13,
+        "total": 15,
+        "success_rate": 0.8666666666666667,
+        "wilson_95_low": 0.6211801716767764,
+        "wilson_95_high": 0.9626387408969346
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_7",
+        "successes": 8,
+        "total": 15,
+        "success_rate": 0.5333333333333333,
+        "wilson_95_low": 0.30116980025498397,
+        "wilson_95_high": 0.7519046463426261
+      },
+      {
+        "condition": "C",
+        "position_id": "eval_8",
+        "successes": 12,
+        "total": 15,
+        "success_rate": 0.8,
+        "wilson_95_low": 0.5481455128483065,
+        "wilson_95_high": 0.9295245065301844
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_1",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_2",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_3",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_4",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_5",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_6",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_7",
+        "successes": 14,
+        "total": 15,
+        "success_rate": 0.9333333333333333,
+        "wilson_95_low": 0.7018347012621998,
+        "wilson_95_high": 0.9881331045067315
+      },
+      {
+        "condition": "D",
+        "position_id": "eval_8",
+        "successes": 15,
+        "total": 15,
+        "success_rate": 1.0,
+        "wilson_95_low": 0.7961166989641515,
+        "wilson_95_high": 1.0
+      }
+    ]
+  },
+  "grasp_error": [
+    {
+      "success": false,
+      "metric": "E1",
+      "n": 127,
+      "mean": 125.5133444908104,
+      "median": 119.33261975460313,
+      "q25": 83.32522280521607,
+      "q75": 178.84627468370982
+    },
+    {
+      "success": false,
+      "metric": "E2",
+      "n": 127,
+      "mean": -2.9279173215802494,
+      "median": -0.5963001077362833,
+      "q25": -5.255793206902638,
+      "q75": 3.1534928053997078
+    },
+    {
+      "success": false,
+      "metric": "E3",
+      "n": 179,
+      "mean": 76.28240632815726,
+      "median": 64.75899244627261,
+      "q25": 19.702217917443043,
+      "q75": 110.26754204241337
+    },
+    {
+      "success": false,
+      "metric": "close_error_3d_mm",
+      "n": 127,
+      "mean": 127.26208903227688,
+      "median": 119.33650167581759,
+      "q25": 83.45409589996613,
+      "q75": 178.8555241495199
+    },
+    {
+      "success": true,
+      "metric": "E1",
+      "n": 301,
+      "mean": 9.998171748700006,
+      "median": 7.242280554052229,
+      "q25": 4.368400665186659,
+      "q75": 11.938855545351892
+    },
+    {
+      "success": true,
+      "metric": "E2",
+      "n": 301,
+      "mean": -1.9382251525120744,
+      "median": -1.3734929850410253,
+      "q25": -6.247662187470723,
+      "q75": 3.5861451185843407
+    },
+    {
+      "success": true,
+      "metric": "E3",
+      "n": 301,
+      "mean": 7.986345702803239,
+      "median": 5.648635027037802,
+      "q25": 2.8924265291384197,
+      "q75": 10.227182258094297
+    },
+    {
+      "success": true,
+      "metric": "close_error_3d_mm",
+      "n": 301,
+      "mean": 13.254977208250112,
+      "median": 10.428273702599174,
+      "q25": 6.82340627378976,
+      "q75": 15.244134638551321
+    }
+  ],
+  "artifacts": {
+    "rollouts_csv": "rollouts.csv",
+    "attempts_csv": "attempts.csv"
+  }
+}

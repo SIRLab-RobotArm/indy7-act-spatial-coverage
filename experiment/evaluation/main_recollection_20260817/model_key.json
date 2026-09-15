@@ -1,0 +1,50 @@
+{
+  "M01": {
+    "condition": "D",
+    "seed": 0
+  },
+  "M02": {
+    "condition": "C",
+    "seed": 1
+  },
+  "M03": {
+    "condition": "A",
+    "seed": 1
+  },
+  "M04": {
+    "condition": "C",
+    "seed": 0
+  },
+  "M05": {
+    "condition": "A",
+    "seed": 0
+  },
+  "M06": {
+    "condition": "D",
+    "seed": 1
+  },
+  "M07": {
+    "condition": "C",
+    "seed": 2
+  },
+  "M08": {
+    "condition": "D",
+    "seed": 2
+  },
+  "M09": {
+    "condition": "B",
+    "seed": 2
+  },
+  "M10": {
+    "condition": "B",
+    "seed": 1
+  },
+  "M11": {
+    "condition": "A",
+    "seed": 2
+  },
+  "M12": {
+    "condition": "B",
+    "seed": 0
+  }
+}

@@ -1,0 +1,5 @@
+experiment: main
+condition: a
+visual_condition: rgb
+seed: 1
+dataset_dir: datasets/grip_a_s1

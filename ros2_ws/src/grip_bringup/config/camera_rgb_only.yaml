@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    initial_reset: true
+    enable_color: true
+    enable_depth: false
+    enable_infra1: false
+    enable_infra2: false
+    enable_gyro: false
+    enable_accel: false
+    rgb_camera.color_profile: 640x480x30
+    pointcloud.enable: false
+    align_depth.enable: false
+    rgb_camera.enable_auto_exposure: false
+    # D435 UVC exposure-absolute unit is 100 us: 50 -> 5 ms.
+    rgb_camera.exposure: 50
+    rgb_camera.gain: 16
+    rgb_camera.enable_auto_white_balance: false
+    rgb_camera.white_balance: 4600.0

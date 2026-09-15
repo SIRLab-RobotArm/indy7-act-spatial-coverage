@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: >-
+  Spatial coverage versus sample count in visuomotor imitation learning:
+  an RGB-only ACT study on a real Indy7 arm
+message: If you use this repository, please cite it as below.
+type: software
+authors:
+  - given-names: Yuyoung
+    family-names: Kim
+    email: yuykim14@gmail.com
+    affiliation: SIRLab
+repository-code: https://github.com/SIRLab-RobotArm/indy7-act-spatial-coverage
+license: MIT
+version: 1.0.0
+date-released: 2026-09-07
+keywords:
+  - imitation learning
+  - action chunking transformer
+  - robot manipulation
+  - ROS 2
+  - generalization
+abstract: >-
+  Code, evaluation protocol and result tables for a real-robot study of how the
+  spatial coverage of demonstrations affects a visuomotor policy. Twelve ACT
+  policies, trained from a single fixed overhead RGB camera under four
+  demonstration-distribution conditions and three seeds each, were evaluated
+  over 480 physical grasping trials on a Neuromeka Indy7 arm with a Mand.ro
+  Mark7 hand.
+
+# TODO: once the paper is published, add its DOI here so that citing the code
+# also points at the paper:
+#
+# preferred-citation:
+#   type: conference-paper
+#   title: ...
+#   doi: ...
+#   year: 2026

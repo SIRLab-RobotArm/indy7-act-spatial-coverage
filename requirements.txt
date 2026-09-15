@@ -1,0 +1,31 @@
+# Python packages needed by the analysis, conversion, training and inference code.
+#
+# PyTorch is deliberately NOT listed here, because the right wheel depends on
+# your CUDA version. Install it first, then install this file. See
+# scripts/setup/create_env.sh, which does both in the right order.
+#
+#     pip install -r requirements.txt
+#     pip install -e ai/lerobot_source/lerobot
+
+# Data handling
+h5py==3.16.0
+numpy==2.2.6
+pandas==3.0.5
+pyarrow==25.0.0
+PyYAML==6.0.3
+
+# Vision
+opencv-python==4.11.0.86
+
+# Policy server transport
+pyzmq==27.1.0
+
+# Statistics for the preregistered analysis
+scipy==1.18.0
+statsmodels==0.14.6
+
+# Result figures
+matplotlib==3.10.7
+
+# Tests
+pytest==9.1.1

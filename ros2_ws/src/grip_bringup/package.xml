@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>grip_bringup</name>
+  <version>0.1.0</version>
+  <description>Collection and evaluation launch files.</description>
+  <maintainer email="yuykim14@gmail.com">SIRLab</maintainer>
+  <license>MIT</license>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>indy_driver</exec_depend>
+  <exec_depend>grip_collect</exec_depend>
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>rosbag2</exec_depend>
+  <exec_depend>pipet_hand_mark7_driver</exec_depend>
+  <exec_depend>pipet_hand_mark7_teleop</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

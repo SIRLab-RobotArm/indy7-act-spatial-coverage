@@ -1,0 +1,527 @@
+schema_version: 3
+units: mm_deg
+frame: indy_base
+camera_mount:
+  overhead_tilt_deg: null
+positions:
+  grid_1:
+    ee_pose_mm_deg:
+    - 776.7053649902343
+    - 159.72193145751953
+    - 551.3918487548829
+    - 89.98974838256834
+    - -0.006391203519882538
+    - 90.00797882080076
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: bd058dc333c2b138772cb4c8a46d6204bd11c587c7922a9dbea58ab66afd4bf5
+      xyz_std_mm:
+      - 4.983748809690616
+      - 2.6769627374215434
+      - 6.4981532947938785
+      xyz_rms_mm: 8.615676290244233
+      xyz_max_dev_mm: 14.523421385031533
+      joint_mean_rad:
+      - 0.1776702359318733
+      - -0.4799674913287163
+      - -1.0255820631980896
+      - 1.9277626872062683
+      - 0.18949228301644325
+      - -0.3626157343387604
+  grid_2:
+    ee_pose_mm_deg:
+    - 792.4957275390625
+    - -19.256003522872923
+    - 549.8345764160156
+    - 87.03172531127927
+    - 0.016695590713055708
+    - 90.69673652648925
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: f6a0bddb151ab1de0c77c24d86f3b99e2050fe1940c5397d941aff90982f4d6e
+      xyz_std_mm:
+      - 4.45771513112881
+      - 2.3404545643378465
+      - 4.601612328650592
+      xyz_rms_mm: 6.820834830225237
+      xyz_max_dev_mm: 16.226818421167646
+      joint_mean_rad:
+      - 0.04821929177269339
+      - -0.4752714678645134
+      - -1.0532259523868561
+      - 1.3180115163326263
+      - 0.037263772916048765
+      - 0.25078658759593964
+  grid_3:
+    ee_pose_mm_deg:
+    - 797.6745574951171
+    - -199.85258941650392
+    - 552.1143676757813
+    - 89.99005393981935
+    - -0.000530815386980521
+    - 90.01388473510741
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: 80e7060c28fe4a4159d6189dc3ed3d8dbc81bdfa1b45ab7fd0dbb46d415a2c88
+      xyz_std_mm:
+      - 2.996265847988859
+      - 3.339529843243063
+      - 4.991125183682413
+      xyz_rms_mm: 6.711288937672422
+      xyz_max_dev_mm: 11.554059459921767
+      joint_mean_rad:
+      - -0.06949911573901772
+      - -0.5724244683980941
+      - -1.270391896367073
+      - 0.23971383664757012
+      - 0.23956608176231384
+      - 1.3300008222460746
+  grid_4:
+    ee_pose_mm_deg:
+    - 635.4466796875
+    - 152.8036911010742
+    - 554.3460174560547
+    - 90.16538429260254
+    - -0.05139826827797833
+    - 90.58224678039551
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: 5b151ed444d65e19bb97eba566b2deb12d6fef6caf055cc9709867a611cf4ad6
+      xyz_std_mm:
+      - 3.7626525294517292
+      - 2.7194263822342486
+      - 6.782670071240377
+      xyz_rms_mm: 8.219333744354289
+      xyz_max_dev_mm: 20.86719938229868
+      joint_mean_rad:
+      - 0.24501445181667805
+      - -0.20034652799367905
+      - -1.502649289369583
+      - 1.9416519582271576
+      - 0.14302709996700286
+      - -0.37458799784071745
+  grid_5:
+    ee_pose_mm_deg:
+    - 640.4706359863281
+    - -15.396353832880656
+    - 552.2020701090495
+    - 89.98780708312984
+    - -0.0009753023588245924
+    - 89.99469337463375
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 60
+      episode_uuid_set_sha256: 32f2ffeee0c9b1e0cce6e8b76a1016c7689b0cf3ee8d33a8bf9e3ec8ae346dba
+      xyz_std_mm:
+      - 6.666329627216243
+      - 4.475442914600272
+      - 3.5380695705733975
+      xyz_rms_mm: 8.774250752444008
+      xyz_max_dev_mm: 20.13736201561846
+      joint_mean_rad:
+      - -0.09889581811924776
+      - -0.15417547623316447
+      - -1.4759335180123647
+      - 1.7285358568032583
+      - -0.10175477179388205
+      - -0.15990199794371923
+  grid_6:
+    ee_pose_mm_deg:
+    - 643.7679412841796
+    - -201.69928894042968
+    - 553.3763702392578
+    - 89.98957099914554
+    - -0.002088834642194115
+    - 90.02557144165041
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: f1a3f89fd521105c07ab50578c6e393ee45810fa174702e054e9c1ead54e66c9
+      xyz_std_mm:
+      - 4.789720527660921
+      - 4.208772063192766
+      - 3.8706983130693433
+      xyz_rms_mm: 7.459054259341876
+      xyz_max_dev_mm: 13.98233316092904
+      joint_mean_rad:
+      - -0.32033587684854864
+      - -0.2584705725312233
+      - -1.4828128039836883
+      - 1.0790157007053494
+      - -0.13911199271678926
+      - 0.48914399287459676
+  grid_7:
+    ee_pose_mm_deg:
+    - 481.4294204711914
+    - 154.97164306640624
+    - 551.3774932861328
+    - 90.01722717285156
+    - -0.014135388669103577
+    - 90.11853370666506
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: bebcae33d1cd56f16cad140292261f1279ccf899d63fb059b0dea6af2cab33eb
+      xyz_std_mm:
+      - 3.1511518018513254
+      - 3.7733489527577944
+      - 3.9398342574341543
+      xyz_rms_mm: 6.300016982012106
+      xyz_max_dev_mm: 9.928391234649645
+      joint_mean_rad:
+      - 0.5253993552178144
+      - 0.1044748280197382
+      - -1.7555947661399842
+      - 1.6509146690368652
+      - 0.4892349347472191
+      - -0.07216780940070748
+  grid_8:
+    ee_pose_mm_deg:
+    - 494.0947235107422
+    - -23.48485736846924
+    - 551.7402435302735
+    - 89.98378944396973
+    - 0.00012260330930757846
+    - 89.98285827636721
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: 9b4f1bbe836a2d15e110134fa49e44a21906f1806d86864c733e684bb8b55272
+      xyz_std_mm:
+      - 4.427975974507341
+      - 4.130139671320704
+      - 4.15227880482179
+      xyz_rms_mm: 7.342100803476045
+      xyz_max_dev_mm: 10.58385800127302
+      joint_mean_rad:
+      - -0.1608122553676367
+      - 0.17534620687365532
+      - -1.7795505404472352
+      - 1.6975295424461365
+      - -0.16343786902725696
+      - -0.12986537981778384
+  grid_9:
+    ee_pose_mm_deg:
+    - 495.1385192871094
+    - -208.766357421875
+    - 551.7077606201171
+    - 89.99484558105468
+    - -9.219071361599163e-05
+    - 90.01283950805663
+    taught: true
+    target_defined: true
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: c8b29575007a41059f8aebfeb0468263ddde5d90c943fef4f6e89976b47fa4c7
+      xyz_std_mm:
+      - 5.0384123850223235
+      - 4.364542319149586
+      - 4.3486300672738345
+      xyz_rms_mm: 7.9589831309779795
+      xyz_max_dev_mm: 13.226432158175887
+      joint_mean_rad:
+      - -0.5330653302371502
+      - 0.006572584587411256
+      - -1.7800164878368379
+      - 1.1811801124364139
+      - -0.3390171527862549
+      - 0.3703311063349247
+  eval_1:
+    ee_pose_mm_deg:
+    - 640.4706359863281
+    - -15.396353832880656
+    - 552.2020701090495
+    - 89.98780708312984
+    - -0.0009753023588245924
+    - 89.99469337463375
+    taught: true
+    target_defined: true
+    mirror_of: grid_5
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 60
+      episode_uuid_set_sha256: 32f2ffeee0c9b1e0cce6e8b76a1016c7689b0cf3ee8d33a8bf9e3ec8ae346dba
+      xyz_std_mm:
+      - 6.666329627216243
+      - 4.475442914600272
+      - 3.5380695705733975
+      xyz_rms_mm: 8.774250752444008
+      xyz_max_dev_mm: 20.13736201561846
+      joint_mean_rad:
+      - -0.09889581811924776
+      - -0.15417547623316447
+      - -1.4759335180123647
+      - 1.7285358568032583
+      - -0.10175477179388205
+      - -0.15990199794371923
+  eval_2:
+    ee_pose_mm_deg:
+    - 776.7053649902343
+    - 159.72193145751953
+    - 551.3918487548829
+    - 89.98974838256834
+    - -0.006391203519882538
+    - 90.00797882080076
+    taught: true
+    target_defined: true
+    mirror_of: grid_1
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: bd058dc333c2b138772cb4c8a46d6204bd11c587c7922a9dbea58ab66afd4bf5
+      xyz_std_mm:
+      - 4.983748809690616
+      - 2.6769627374215434
+      - 6.4981532947938785
+      xyz_rms_mm: 8.615676290244233
+      xyz_max_dev_mm: 14.523421385031533
+      joint_mean_rad:
+      - 0.1776702359318733
+      - -0.4799674913287163
+      - -1.0255820631980896
+      - 1.9277626872062683
+      - 0.18949228301644325
+      - -0.3626157343387604
+  eval_3:
+    ee_pose_mm_deg:
+    - 643.7679412841796
+    - -201.69928894042968
+    - 553.3763702392578
+    - 89.98957099914554
+    - -0.002088834642194115
+    - 90.02557144165041
+    taught: true
+    target_defined: true
+    mirror_of: grid_6
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: f1a3f89fd521105c07ab50578c6e393ee45810fa174702e054e9c1ead54e66c9
+      xyz_std_mm:
+      - 4.789720527660921
+      - 4.208772063192766
+      - 3.8706983130693433
+      xyz_rms_mm: 7.459054259341876
+      xyz_max_dev_mm: 13.98233316092904
+      joint_mean_rad:
+      - -0.32033587684854864
+      - -0.2584705725312233
+      - -1.4828128039836883
+      - 1.0790157007053494
+      - -0.13911199271678926
+      - 0.48914399287459676
+  eval_4:
+    ee_pose_mm_deg:
+    - 494.0947235107422
+    - -23.48485736846924
+    - 551.7402435302735
+    - 89.98378944396973
+    - 0.00012260330930757846
+    - 89.98285827636721
+    taught: true
+    target_defined: true
+    mirror_of: grid_8
+    source:
+      method: successful_demonstration_first_close_mean
+      close_definition: first gripper_cmd 0->1 transition
+      episode_count: 20
+      episode_uuid_set_sha256: 9b4f1bbe836a2d15e110134fa49e44a21906f1806d86864c733e684bb8b55272
+      xyz_std_mm:
+      - 4.427975974507341
+      - 4.130139671320704
+      - 4.15227880482179
+      xyz_rms_mm: 7.342100803476045
+      xyz_max_dev_mm: 10.58385800127302
+      joint_mean_rad:
+      - -0.1608122553676367
+      - 0.17534620687365532
+      - -1.7795505404472352
+      - 1.6975295424461365
+      - -0.16343786902725696
+      - -0.12986537981778384
+  eval_5:
+    ee_pose_mm_deg:
+    - 711.2796020507812
+    - 69.46831630071003
+    - 551.9436281840007
+    - 89.293666267395
+    - -0.010517295860893228
+    - 90.32041387557979
+    taught: false
+    target_defined: true
+    physically_taught: false
+    source:
+      method: surrounding_grid_cell_center_mean
+      source_grids:
+      - grid_1
+      - grid_2
+      - grid_4
+      - grid_5
+      weights:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      q_demonstration_count: 0
+  eval_6:
+    ee_pose_mm_deg:
+    - 718.6022155761718
+    - -109.0510589281718
+    - 551.8818461100261
+    - 89.24978933334347
+    - 0.0032751595812783307
+    - 90.18272151947019
+    taught: false
+    target_defined: true
+    physically_taught: false
+    source:
+      method: surrounding_grid_cell_center_mean
+      source_grids:
+      - grid_2
+      - grid_3
+      - grid_5
+      - grid_6
+      weights:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      q_demonstration_count: 0
+  eval_7:
+    ee_pose_mm_deg:
+    - 562.8603649139404
+    - 67.22353074153263
+    - 552.4164560953776
+    - 90.03855199813842
+    - -0.01659658899916394
+    - 90.16958303451537
+    taught: false
+    target_defined: true
+    physically_taught: false
+    source:
+      method: surrounding_grid_cell_center_mean
+      source_grids:
+      - grid_4
+      - grid_5
+      - grid_7
+      - grid_8
+      weights:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      q_demonstration_count: 0
+  eval_8:
+    ee_pose_mm_deg:
+    - 568.3679550170898
+    - -112.33671439091364
+    - 552.2566111246745
+    - 89.98900327682492
+    - -0.0007584311013317802
+    - 90.003990650177
+    taught: false
+    target_defined: true
+    physically_taught: false
+    source:
+      method: surrounding_grid_cell_center_mean
+      source_grids:
+      - grid_5
+      - grid_6
+      - grid_8
+      - grid_9
+      weights:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      q_demonstration_count: 0
+  pilot_1:
+    ee_pose_mm_deg: null
+    taught: false
+  pilot_2:
+    ee_pose_mm_deg: null
+    taught: false
+evaluation_protocol:
+  p_target_definition: 'exact-grid: mean EEF XYZ at first gripper close; Q cell-centre:
+    equal-weight mean of four surrounding grid targets'
+  q_target_has_physical_teach_in: false
+  distance_definition: nearest condition training target, XY Euclidean mm
+  lift_threshold_mm: 50.0
+  hold_duration_s: 3.0
+  success_definition: PVC grasped, EEF rises at least 50 mm after close, and PVC remains
+    held for at least 3 s
+  updated_utc: '2026-08-24T06:45:00.074062+00:00'
+evaluation_distances_mm:
+  eval_1:
+    A: 0.0
+    B: 146.59922115245232
+    C: 0.0
+    D: 0.0
+  eval_2:
+    A: 221.87004130755858
+    B: 0.0
+    C: 0.0
+    D: 0.0
+  eval_3:
+    A: 186.3321117035785
+    B: 0.0
+    C: 0.0
+    D: 0.0
+  eval_4:
+    A: 146.59922115245232
+    B: 0.0
+    C: 0.0
+    D: 0.0
+  eval_5:
+    A: 110.52566178042107
+    B: 111.47307076187946
+    C: 110.52566178042107
+    D: 110.52566178042107
+  eval_6:
+    A: 121.96617365355868
+    B: 119.09602484219766
+    C: 116.29016762156017
+    D: 116.29016762156017
+  eval_7:
+    A: 113.35519177796346
+    B: 113.82761137398948
+    C: 112.21736469714092
+    D: 112.21736469714092
+  eval_8:
+    A: 120.81485880500462
+    B: 115.80658623209825
+    C: 115.80658623209825
+    D: 115.80658623209825

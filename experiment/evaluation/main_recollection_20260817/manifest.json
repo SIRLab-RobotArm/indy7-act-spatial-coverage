@@ -1,0 +1,11 @@
+{
+  "amendment": "repeat count increased from 2 to 5 after main trials 1-3; the original 192-trial schedule is preserved as an exact prefix",
+  "balance": "per 24-trial session: each model x2, condition x6, seed x8, position x3; overall: each model-position-repeat x1",
+  "full_schedule_sha256": "f6e26ce805d0f4dc0d308fb99f1a179978ee544796603dd35e12575abd0a193b",
+  "repeat_count": 5,
+  "schedule_seed": 20260824,
+  "schema_version": 2,
+  "session_count": 20,
+  "trial_count": 480,
+  "trials_per_session": 24
+}

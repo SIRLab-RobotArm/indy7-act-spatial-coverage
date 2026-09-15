@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<robot name="pipet_hand_mark7" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:arg name="use_mock_hardware" default="false"/>
+  <xacro:arg name="port" default="/dev/ttyACM0"/>
+
+  <xacro:include filename="$(find pipet_hand_mark7_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find pipet_hand_mark7_description)/urdf/pipet_hand_mark7.trans" />
+  <xacro:include filename="$(find pipet_hand_mark7_description)/urdf/pipet_hand_mark7.gazebo" />
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0.001555 -0.004795 0.047623" rpy="0 0 0"/>
+      <mass value="0.35"/>
+      <inertia ixx="0.000718" iyy="0.000888" izz="0.000438" ixy="-1.4e-05" iyz="0.000117" ixz="1.8e-05"/>
+    </inertial>
+    <visual><origin xyz="0 0 0" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual>
+    <collision><origin xyz="0 0 0" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/></geometry></collision>
+  </link>
+
+  <xacro:macro name="default_inertial" params="mass">
+    <inertial><mass value="${mass}" /><inertia ixx="0.000001" ixy="0.0" ixz="0.0" iyy="0.000001" iyz="0.0" izz="0.000001" /></inertial>
+  </xacro:macro>
+
+  <link name="pinky_bottom_1"><xacro:default_inertial mass="0.03"/><visual><origin xyz="-0.031928 0.005928 -0.078169" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/pinky_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="-0.031928 0.005928 -0.078169" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/pinky_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="pinky_top_1"><xacro:default_inertial mass="0.03"/><visual><origin xyz="-0.037439 -0.000714 -0.107655" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/pinky_top_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="-0.037439 -0.000714 -0.107655" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/pinky_top_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="ringer_bottom_1"><xacro:default_inertial mass="0.04"/><visual><origin xyz="-0.011471 0.009409 -0.085649" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/ringer_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="-0.011471 0.009409 -0.085649" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/ringer_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="ringer_top_1"><xacro:default_inertial mass="0.03"/><visual><origin xyz="-0.015717 0.00084 -0.123103" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/ringer_top_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="-0.015717 0.00084 -0.123103" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/ringer_top_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="middle_bottom_1"><xacro:default_inertial mass="0.05"/><visual><origin xyz="0.008513 0.011057 -0.092109" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/middle_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.008513 0.011057 -0.092109" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/middle_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="middle_top_1"><xacro:default_inertial mass="0.03"/><visual><origin xyz="0.006949 0.002365 -0.133647" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/middle_top_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.006949 0.002365 -0.133647" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/middle_top_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="index_bottom_1"><xacro:default_inertial mass="0.04"/><visual><origin xyz="0.030299 0.008352 -0.089777" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/index_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.030299 0.008352 -0.089777" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/index_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="index_top_1"><xacro:default_inertial mass="0.03"/><visual><origin xyz="0.032614 0.001276 -0.127706" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/index_top_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.032614 0.001276 -0.127706" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/index_top_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="thumb_bottom_1"><xacro:default_inertial mass="0.05"/><visual><origin xyz="0.007376 -0.005575 -0.034463" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.007376 -0.005575 -0.034463" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_bottom_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="thumb_middle_1"><xacro:default_inertial mass="0.04"/><visual><origin xyz="0.036417 -0.014922 -0.033958" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_middle_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.036417 -0.014922 -0.033958" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_middle_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+  <link name="thumb_top_1"><xacro:default_inertial mass="0.05"/><visual><origin xyz="0.05907 -0.016082 -0.041644" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_top_1.stl" scale="0.001 0.001 0.001"/></geometry><material name="silver"/></visual><collision><origin xyz="0.05907 -0.016082 -0.041644" rpy="0 0 0"/><geometry><mesh filename="package://pipet_hand_mark7_description/meshes/thumb_top_1.stl" scale="0.001 0.001 0.001"/></geometry></collision></link>
+
+  <joint name="base_pinky" type="revolute">
+    <origin xyz="0.031928 -0.005928 0.078169" rpy="0 0 0"/><parent link="base_link"/><child link="pinky_bottom_1"/>
+    <axis xyz="-0.972127 -0.033995 0.231975"/>
+    <limit upper="1.396" lower="0.0" effort="20" velocity="2.0"/>
+  </joint>
+  <joint name="pinky_bottom_top" type="revolute">
+    <origin xyz="0.005511 0.006642 0.029486" rpy="0 0 0"/><parent link="pinky_bottom_1"/><child link="pinky_top_1"/>
+    <axis xyz="-0.972127 -0.033995 0.231975"/>
+    <mimic joint="base_pinky" multiplier="1.0" offset="0"/>
+    <limit upper="1.396" lower="0.0" effort="0" velocity="2.0"/>
+  </joint>
+
+  <joint name="base_ringer" type="revolute">
+    <origin xyz="0.011471 -0.009409 0.085649" rpy="0 0 0"/><parent link="base_link"/><child link="ringer_bottom_1"/>
+    <axis xyz="-0.991562 -0.005724 0.129511"/>
+    <limit upper="1.396" lower="0.0" effort="20" velocity="2.0"/>
+  </joint>
+  <joint name="ringer_bottom_top_rev" type="revolute">
+    <origin xyz="0.004246 0.008569 0.037454" rpy="0 0 0"/><parent link="ringer_bottom_1"/><child link="ringer_top_1"/>
+    <axis xyz="-0.991562 -0.005724 0.129511"/>
+    <mimic joint="base_ringer" multiplier="1.0" offset="0"/>
+    <limit upper="1.396" lower="0.0" effort="0" velocity="4.0"/>
+  </joint>
+
+  <joint name="base_middle" type="revolute">
+    <origin xyz="-0.008513 -0.011057 0.092109" rpy="0 0 0"/><parent link="base_link"/><child link="middle_bottom_1"/>
+    <axis xyz="-0.998722 0.009815 0.049588"/>
+    <limit upper="1.396" lower="0.0" effort="20" velocity="2.0"/>
+  </joint>
+  <joint name="middle_bottom_top_rev" type="revolute">
+    <origin xyz="0.001564 0.008692 0.041538" rpy="0 0 0"/><parent link="middle_bottom_1"/><child link="middle_top_1"/>
+    <axis xyz="-0.998722 0.009815 0.049588"/>
+    <mimic joint="base_middle" multiplier="1.0" offset="0"/>
+    <limit upper="1.396" lower="0.0" effort="0" velocity="4.0"/>
+  </joint>
+
+  <joint name="base_index" type="revolute">
+    <origin xyz="-0.030299 -0.008352 0.089777" rpy="0 0 0"/><parent link="base_link"/><child link="index_bottom_1"/>
+    <axis xyz="-0.997898 0.03262 -0.055994"/>
+    <limit upper="1.396" lower="0.0" effort="20" velocity="2.0"/>
+  </joint>
+  <joint name="index_bottom_top_rev" type="revolute">
+    <origin xyz="-0.002315 0.007076 0.037929" rpy="0 0 0"/><parent link="index_bottom_1"/><child link="index_top_1"/>
+    <axis xyz="-0.997898 0.03262 -0.055994"/>
+    <mimic joint="base_index" multiplier="1.0" offset="0"/>
+    <limit upper="1.396" lower="0.0" effort="0" velocity="4.0"/>
+  </joint>
+
+  <joint name="base_thumb" type="revolute">
+    <origin xyz="-0.007376 0.005575 0.034463" rpy="0 0 0"/><parent link="base_link"/><child link="thumb_bottom_1"/>
+    <axis xyz="-0.995619 0.092558 -0.013228"/>
+    <limit upper="1.396" lower="0.0" effort="25" velocity="2.0"/>
+  </joint>
+  <joint name="thumb_bottom_middle_rev" type="revolute">
+    <origin xyz="-0.029041 0.009347 -0.000505" rpy="0 0 0"/><parent link="thumb_bottom_1"/><child link="thumb_middle_1"/>
+    <axis xyz="-0.092166 -0.947763 0.305369"/><limit upper="0.0" lower="-0.872665" effort="30" velocity="2.0"/>
+  </joint>
+  <joint name="thumb_middle_top_rev" type="revolute">
+    <origin xyz="-0.022653 0.00116 0.007686" rpy="0 0 0"/><parent link="thumb_middle_1"/><child link="thumb_top_1"/>
+    <axis xyz="-0.092165 -0.947763 0.305369"/>
+    <mimic joint="thumb_bottom_middle_rev" multiplier="1.0" offset="0"/>
+    <limit upper="0.0" lower="-0.872665" effort="0" velocity="2.0"/>
+  </joint>
+
+
+  <!-- ===== ros2_control Hardware Interface ===== -->
+  <!-- 조인트 순서 = Mark7 finger 인덱스 순서 (B2~B7)                      -->
+  <!-- fingers[0] B2 Thumb Flex  → thumb_bottom_middle_rev (실제 굽힘)    -->
+  <!-- fingers[1] B3 Index       → base_index                            -->
+  <!-- fingers[2] B4 Middle      → base_middle                           -->
+  <!-- fingers[3] B5 Ring        → base_ringer                           -->
+  <!-- fingers[4] B6 Little      → base_pinky                            -->
+  <!-- fingers[5] B7 Thumb Ab    → base_thumb (실제 외전)                 -->
+  <ros2_control name="mark7_hardware" type="system">
+    <hardware>
+      <plugin>pipet_hand_mark7_driver/Mark7SystemHardware</plugin>
+      <param name="port">$(arg port)</param>
+      <param name="use_mock_hardware">$(arg use_mock_hardware)</param>
+    </hardware>
+
+    <!-- B2: Thumb Flex -->
+    <joint name="thumb_bottom_middle_rev">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+
+    <!-- B3: Index -->
+    <joint name="base_index">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+
+    <!-- B4: Middle -->
+    <joint name="base_middle">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+
+    <!-- B5: Ring -->
+    <joint name="base_ringer">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+
+    <!-- B6: Little (Pinky) -->
+    <joint name="base_pinky">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+
+    <!-- B7: Thumb Ab -->
+    <joint name="base_thumb">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+      <state_interface name="current"/>
+      <state_interface name="temperature"/>
+    </joint>
+  </ros2_control>
+
+</robot>
