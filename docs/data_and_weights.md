@@ -20,15 +20,35 @@ No raw images, HDF5 recordings, checkpoints or ROS bags are committed.
 
 | Artifact | Size | Where it is now |
 | --- | ---: | --- |
-| Raw HDF5 demonstrations, 220 episodes | 90 GB | Local and lab storage |
-| Combined LeRobot dataset (`rgb_all`) | 15 GB | Local |
+| Combined dataset, video encoded | 0.22 GB | [Hugging Face, CC BY 4.0](https://huggingface.co/datasets/SIRLab-HGU/indy7-act-spatial-coverage) |
+| The 12 trained models, 100k checkpoints | 2.4 GB | [Hugging Face, Apache 2.0](https://huggingface.co/SIRLab-HGU/indy7-act-spatial-coverage-models) |
+| Combined LeRobot dataset (`rgb_all`), PNG frames | 15 GB | Local; the video release stands in for it |
 | Per-condition datasets A-D | 24 GB | Local, regenerable from `rgb_all` |
-| The 12 trained models, 100k checkpoints | 2.5 GB | Local |
+| Raw HDF5 demonstrations, 220 episodes | 90 GB | Local and lab storage |
 | Raw rollout traces and ROS bags | 640 GB | Local and lab storage |
 
-**Release status:** a Hugging Face release of the datasets and the 12 model
-weights is planned but not yet published, so there are no links here. Until it
-happens, contact <yuykim14@gmail.com> to request access.
+**Release status:** published on 2026-09-16. The raw HDF5 recordings were left
+out: 90 GB is a poor fit for a free Hub account, and HDF5 is not one of the
+formats the Hub reads. Request them by mail.
+
+### What was published, and how it differs
+
+The released dataset is `rgb_all` re-encoded as AV1 video with LeRobot's own
+`convert_image_to_video_dataset` (CRF 30, GOP 2, `yuv420p`), not a fresh
+conversion from HDF5. That choice keeps the frozen condition manifests valid,
+because episode indices and lengths are preserved. States, actions, timestamps
+and indices were verified identical frame by frame; pixels differ (max 93, mean
+1.83, PSNR 40.4 dB over 500 sampled frames), partly because RGB stored as
+`yuv420p` is lossy even with a lossless codec.
+
+All 176,837 frames were scanned for skin tones before publishing: the highest
+per-frame share was 0.086%, and a visual check of the worst 24 frames plus 46
+spread across the dataset showed only the arm, the gripper and the pipe.
+
+The weights keep the `train_config.json` they were trained with, including the
+absolute paths of the training machine. They record no credentials (Weights &
+Biases is disabled), and the paths are left in place as provenance rather than
+rewritten to the Hub id.
 
 Everything needed to verify the published numbers is already in the repository -
 the raw artifacts are needed only to retrain from scratch or to re-derive the
@@ -103,11 +123,11 @@ trace needed for a specific claim, can be published on request.
 1. [done] All 480 trials complete and `export_results.py --require-complete`
    passes
 2. Manually review the outcome corrections and the incomplete attempts
-3. Check the release copies of the dataset and models for identifiers and
-   absolute paths
-4. [done] Code license fixed as MIT; confirm the data and weight licenses
-   separately with the lab PI
-5. Decide the public/private timing against the venue's anonymity policy
+3. [done] Release copies checked: no people in frame, no credentials in the
+   weights; the training machine's absolute paths are kept on purpose
+4. [done] Code MIT, dataset CC BY 4.0, weights Apache 2.0
+5. Decide the public/private timing against the venue's anonymity policy - the
+   code, data and weights are already public under the authors' real names
 6. Record the SHA-256 values, the git commit, and the LeRobot and PyTorch
    versions
 7. Smoke-test loading the dataset and all 12 checkpoints in a fresh environment

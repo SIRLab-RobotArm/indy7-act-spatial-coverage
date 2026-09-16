@@ -421,15 +421,29 @@ Only small files live in git. The heavy artefacts are:
 
 | Artefact | Size | Status |
 | --- | ---: | --- |
-| Raw HDF5 demonstrations (220 episodes) | 90 GB | Hugging Face release planned |
-| Combined LeRobot dataset | 15 GB | Hugging Face release planned |
+| Combined dataset, video encoded | 0.22 GB | **[published on Hugging Face](https://huggingface.co/datasets/SIRLab-HGU/indy7-act-spatial-coverage)** |
+| The 12 trained models | 2.4 GB | **[published on Hugging Face](https://huggingface.co/SIRLab-HGU/indy7-act-spatial-coverage-models)** |
+| Combined dataset, original PNG frames | 15 GB | local; the video release above stands in for it |
 | Per-condition datasets (A-D) | 24 GB | regenerable from the above |
-| The 12 trained models | 2.5 GB | Hugging Face release planned |
+| Raw HDF5 demonstrations (220 episodes) | 90 GB | archived locally, available on request |
 | Raw trial traces and ROS bags | 640 GB | archived locally, available on request |
 | **The 480-trial result tables** | **a few hundred KB** | **in this repository** |
 
-The Hugging Face upload is planned but not yet done, so there are no links here
-yet. Until then, contact <yuykim14@gmail.com> for access.
+```python
+from lerobot.datasets.lerobot_dataset import LeRobotDataset
+
+dataset = LeRobotDataset("SIRLab-HGU/indy7-act-spatial-coverage")
+```
+
+The published dataset is the PNG dataset re-encoded as AV1 video, so it is 68
+times smaller. Episode indices, lengths, states, actions and timestamps are
+identical, which keeps the frozen condition manifests valid; the pixels differ
+slightly (max 93, mean 1.83 of 255, PSNR 40.4 dB over 500 sampled frames),
+because video encoding is lossy. The 12 published policies were trained on the
+PNG version.
+
+For the raw HDF5 recordings or the evaluation traces, contact
+<yuykim14@gmail.com>.
 
 What is already here is enough to check every published number:
 `experiment/evaluation/main_recollection_20260817/results/` holds one row per
