@@ -8,7 +8,22 @@ authors:
   - given-names: Yuyoung
     family-names: Kim
     email: yuykim14@gmail.com
-    affiliation: SIRLab
+    affiliation: SIRLab, Handong Global University
+  - given-names: Dogyung
+    family-names: Kim
+    affiliation: SIRLab, Handong Global University
+  - given-names: Jaehyeok
+    family-names: Yoo
+    affiliation: SIRLab, Handong Global University
+  - given-names: Dongyun
+    family-names: Kim
+    affiliation: SIRLab, Handong Global University
+  - given-names: Dowook
+    family-names: Kim
+    affiliation: SIRLab, Handong Global University
+  - given-names: WonHyong
+    family-names: Lee
+    affiliation: SIRLab, Handong Global University
 repository-code: https://github.com/SIRLab-RobotArm/indy7-act-spatial-coverage
 license: MIT
 version: 1.0.0
